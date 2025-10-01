@@ -1,0 +1,25 @@
+# Notification Configuration
+NOTIFICATION_TYPE=native,telegram  # Options: 'native', 'email', 'telegram' or 'both'
+
+# Email Configuration (only needed if NOTIFICATION_TYPE is 'email' or 'both')
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASSWORD=your-app-password
+NOTIFICATION_EMAIL=your-email@gmail.com
+
+# Monitoring Configuration
+CHECK_INTERVAL_MINUTES=15
+PRODUCT_SEARCH_TERM=suunto race 2 titanium trail
+AMAZON_DOMAIN=amazon.nl
+
+# Telegram notification
+TELEGRAM_BOT_TOKEN=API_KEY
+TELEGRAM_CHAT_ID=CHAT_ID
+
+# Logging
+LOG_LEVEL=INFO
+
+
+
+
